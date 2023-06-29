@@ -1,0 +1,38 @@
+name,ring,quadrant,isNew,description
+CouchDB,Adopt,Tools,FALSE,<p>The primary DB for the CHT.</p>
+PouchDB,Adopt,languages-and-frameworks,FALSE,"<p>JavaScript library for storing data on the phone in the CHT webapp. Also used as a library for querying CouchDB from api, sentinel, and the admin app.</p>"
+AWS,Adopt,Platforms,FALSE,<p>Cloud provider used for Medic hosted services.</p>
+Docker,Adopt,Tools,FALSE,<p>Used extensively for containerizing CHT products.</p>
+Nginx,Adopt,Tools,FALSE,<p>Provides SSL termination for self-hosted CHT deployments.</p>
+GitHub Actions,Adopt,Tools,FALSE,<p>Used extensively for CI across CHT products including testing and releasing.</p>
+Postgres,Adopt,Tools,FALSE,<p>Primarily used as a data warehouse for analytics queries.</p>
+git,Adopt,Tools,FALSE,<p>Primary content version system.</p>
+OpenHIM,Trial,Tools,FALSE,<p>Tool to enable interoperability beteen CHT and other information systems.</p>
+FHIR,Adopt,Tools,FALSE,<p>Health data messaging standard used extensively in ecosystem.</p>
+DBT,Assess,Tools,FALSE,<p>Runs data tests and migrations for cht-sync.</p>
+Grafana,Assess,Tools,FALSE,<p>Being evaluated for CHT Watchdog</p>
+Prometheus,Assess,Tools,FALSE,<p>Being evaluated for CHT Watchdog</p>
+Kubernetes,Assess,Tools,FALSE,<p>Only needed for Medic hosting right now</p>
+DOT,Trial,Tools,FALSE,<p>Data Observation Toolkit that DataKind built and we run with MoH UG.</p>
+Superset,Adopt,Tools,FALSE,"<p>Open source product for configurable dashboards, used for health care analytics.</p>"
+couch2pg,Stop,Tools,FALSE,<p>Maintenance: look into cht-sync and cht-pipeline instead</p>
+Grunt,Stop,Tools,FALSE,<p>Deprecated: use native JavaScript instead</p>
+PWA,Adopt,Techniques,FALSE,<p>Followed for CHT webapp to allow offline first capability</p>
+Android development,Adopt,Platforms,FALSE,<p>Android APKs are created to wrap the CHT webapp in a native app.</p>
+Continuous Discovery,Adopt,Techniques,FALSE,"<p><a href=""https://docs.communityhealthtoolkit.org/contribute/medic/product-development-process/continuous-discovery-overview/"">Documentation</a></p>"
+Quality Assistance,Adopt,Techniques,FALSE,"<p><a href=""https://docs.communityhealthtoolkit.org/contribute/medic/product-development-process/quality-assistance/"">Documentation</a></p>"
+HAProxy,Assess,Tools,FALSE,<p>Used for audit logging and load balancing CouchDB cluster. Due for re-evaluation</p>
+MedicOS,Stop,Platforms,FALSE,<p>Minimal linux based OS for CHT distribution. Made obsolete by the transition to Docker containers in 4.0.0.</p>
+JavaScript,Adopt,languages-and-frameworks,FALSE,<p>Primary programming language used everywhere in the CHT.</p>
+TypeScript,Adopt,languages-and-frameworks,FALSE,<p>Used a lot in CHT webapp with the potential to use it more widely.</p>
+Angular,Adopt,languages-and-frameworks,FALSE,<p>The web framework for CHT webapp.</p>
+node.js,Adopt,languages-and-frameworks,FALSE,<p>Used for services on the server like API and Sentinel as well as scripting.</p>
+Enketo,Adopt,languages-and-frameworks,FALSE,<p>Javascript library for rendering xforms as HTML with CSS and JS.</p>
+npm,Adopt,Tools,FALSE,<p>JavaScript package repository used widely for CHT products.</p>
+WebdriverIO,Adopt,languages-and-frameworks,FALSE,<p>UI testing framework used for end-to-end testing in web applications.</p>
+CSS,Adopt,languages-and-frameworks,FALSE,<p>.</p>
+AngularJS,Stop,languages-and-frameworks,FALSE,"<p>Obsolete version of Angular, used in the CHT admin app. Deprecated: rewrite to Angular</p>"
+BASH,Stop,languages-and-frameworks,FALSE,"<p>Used for scripting, but JavaScript is preferred due to being more testable and cross platform compatible.</p>"
+Python,Stop,languages-and-frameworks,FALSE,<p>Used to convert xls forms to xforms in cht-conf.</p>
+Protractor,Stop,languages-and-frameworks,FALSE,<p>Obsolete UI testing framework. Deprecated: rewrite to WDIO</p>
+k3d,Assess,Tools,FALSE,<p>An orchestration tool which may be suitable for self-hosting. Under investigation.</p>
